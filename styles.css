@@ -1,0 +1,77 @@
+/* CSS for Odin Recipes project. */
+* {
+  font-family: Helvetica, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1em;
+    color: gray;
+    margin: 0.5em 0;
+  }
+
+/* Background of page */
+body {
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+  }
+
+/* Style for Headings */
+h1 {
+    font: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2em;
+    color: chocolate;
+    margin: 0.5em 0;
+  }
+
+h2 {
+    font: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    color: chocolate;
+    margin: 0.5em 0;
+  }
+
+h3 {
+    font: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    color: chocolate;
+    margin: 0.5em 0;
+  }
+
+/* Style for hyperlinks */
+a {
+    color: #000;
+    text-decoration: none;
+    text-shadow: 0ch;
+  }
+
+a:hover {
+    font-weight: bold;
+    color: red;
+  }
+
+/* Style for lists */
+ul {
+    text-align: center;
+    list-style-type: square;
+    color:cadetblue;
+  }
+
+li {
+    margin: 0.5em 0;
+    text-align: center;
+    list-style-position: inside;
+  }
+
+/* Style for images */
+img {
+    display: block;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
