@@ -1,26 +1,23 @@
-/* CSS for Odin Recipes project. */
+/* GENERAL STYLE */
 * {
-  font-family: Helvetica, Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Tahoma, sans-serif;
+  box-sizing: border-box;
 }
 
 p {
-    font: Helvetica, sans-serif;
-    text-align: center;
     font-size: 1em;
-    color: #1f1f1f;
+    color: #382604;
     margin: 0.5em 0;
   }
 
-/* Background of page */
 body {
     background-color: beige;
     margin: 0;
     padding: 0;
   }
 
-/* Style for Headings */
+/* HEADINGS */
 h1 {
-    font: Helvetica, sans-serif;
     text-align: center;
     font-size: 2em;
     color: chocolate;
@@ -28,7 +25,6 @@ h1 {
   }
 
 h2 {
-    font: Helvetica, sans-serif;
     text-align: center;
     font-size: 1.5em;
     color: chocolate;
@@ -36,26 +32,24 @@ h2 {
   }
 
 h3 {
-    font: Helvetica, sans-serif;
     text-align: center;
     font-size: 1.2em;
     color: chocolate;
     margin: 0.5em 0;
   }
 
-/* Style for hyperlinks */
+/* HYPERLINKS */
 a {
     color: #000;
     text-decoration: none;
-    text-shadow: 0ch;
   }
 
 a:hover {
     font-weight: bold;
-    color: red;
+    color: black;
   }
 
-/* Style for lists */
+/* LISTS */
 ul {
     text-align: center;
     flex-direction: column;
@@ -71,19 +65,36 @@ li {
     list-style-position: inside;
   }
 
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    padding: 0;
-  }
-
-/* Style for images */
+/* IMAGES */
 img {
     display: block;
     align-content: center;
     margin-left: auto;
     margin-right: auto;
+  }
+
+/* CLASSES AND ID's */
+.container {
+  display: block;
+  align-items: center;
+  margin: 4em 4em;
+  padding: 5px;
+}
+
+.description {
+    text-align: left;
+    margin: 4em 4em;
+    padding: 5px;
+  }
+
+.back-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+    text-decoration: none;
+    color: #333;
   }
